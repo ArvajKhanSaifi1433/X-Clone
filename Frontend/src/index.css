@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  /* styles.css or your global CSS file */
+  @keyframes gradientBorder {
+    0% {
+      border-image-source: linear-gradient(90deg, #ff6f61, #d500f9, skyblue);
+    }
+    50% {
+      border-image-source: linear-gradient(90deg, #d500f9, #ff6f61, green);
+    }
+    100% {
+      border-image-source: linear-gradient(90deg, #ff6f61, #d500f9, purple);
+    }
+  }
+
+  .gradient-border {
+    border-width: 2px;
+    border-style: solid;
+    border-image-source: linear-gradient(90deg, #ff6f61, #d500f9, blue);
+    border-image-slice: 1;
+    animation: gradientBorder 3s infinite;
+  }
+}
