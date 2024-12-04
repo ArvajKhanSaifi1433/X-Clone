@@ -6,7 +6,7 @@ import axios from "axios";
 import { USER_API_END_POINT } from "../utils/constant";
 import toast, { Toaster } from "react-hot-toast";
 import { useDispatch } from "react-redux";
-import { getUser } from "../Redux/Slices/UserSlice";
+import { getUser } from "../Redux/Slices/userSlice";
 
 function Login() {
   const [isLogin, setIsLogin] = useLocalStorage("isLogin", "Login");

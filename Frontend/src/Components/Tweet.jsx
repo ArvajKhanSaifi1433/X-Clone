@@ -13,7 +13,7 @@ import { timeSince, TWEET_API_END_POINT, USER_API_END_POINT } from "../utils/con
 import { getRefresh } from "../Redux/Slices/tweetSlice";
 import toast from "react-hot-toast";
 import { MdDelete } from "react-icons/md";
-import { toggleBookmark } from "../Redux/Slices/UserSlice";
+import { toggleBookmark } from "../Redux/Slices/userSlice";
 
 function Tweet() {
   const { tweets } = useSelector((store) => store.tweet);

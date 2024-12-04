@@ -6,7 +6,7 @@ import useGetProfile from "../Hooks/useGetProfile";
 import { USER_API_END_POINT } from "../utils/constant";
 import axios from "axios";
 import toast from "react-hot-toast";
-import { toggleFollow } from "../Redux/Slices/UserSlice";
+import { toggleFollow } from "../Redux/Slices/userSlice";
 
 function Profile() {
   const { id } = useParams();

@@ -16,7 +16,7 @@ import {
   getMyProfile,
   getOtherUsers,
   getUser,
-} from "../Redux/Slices/UserSlice";
+} from "../Redux/Slices/userSlice";
 import { getAllTweets, getIsActive, getRefresh } from "../Redux/Slices/tweetSlice";
 
 function LeftSidebar({ isDarkMode, handleDarkModeToggle }) {
