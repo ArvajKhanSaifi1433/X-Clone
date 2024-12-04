@@ -1,7 +1,7 @@
 export const USER_API_END_POINT =
-  "https://arvaj-saifi-tweeter-clone.onrender.com/api/v1/user";
+  "https://arvajkhanxclonebackend.onrender.com/api/v1/user";
 export const TWEET_API_END_POINT =
-  "https://arvaj-saifi-tweeter-clone.onrender.com/api/v1/tweet";
+  "https://arvajkhanxclonebackend.onrender.com/api/v1/tweet";
 
 // http://localhost:8000
 
